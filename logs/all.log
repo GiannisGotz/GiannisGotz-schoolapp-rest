@@ -1,0 +1,26 @@
+2025-08-01 00:48:04 INFO  - HV000001: Hibernate Validator 8.0.2.Final
+2025-08-01 00:48:04 INFO  - Starting SchoolAppApplication using Java 17.0.13 with PID 30744 (C:\Users\johng\IdeaProjects\schoolapp7-rest-main\build\classes\java\main started by johng in C:\Users\johng\IdeaProjects\schoolapp7-rest-main)
+2025-08-01 00:48:04 INFO  - No active profile set, falling back to 1 default profile: "default"
+2025-08-01 00:48:05 INFO  - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-08-01 00:48:05 INFO  - Finished Spring Data repository scanning in 44 ms. Found 5 JPA repository interfaces.
+2025-08-01 00:48:05 INFO  - Tomcat initialized with port 8080 (http)
+2025-08-01 00:48:05 INFO  - Root WebApplicationContext: initialization completed in 1191 ms
+2025-08-01 00:48:06 INFO  - HHH000412: Hibernate ORM core version 6.6.15.Final
+2025-08-01 00:48:06 INFO  - HHH000026: Second-level cache disabled
+2025-08-01 00:48:06 INFO  - No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-08-01 00:48:06 INFO  - HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 8.0.43
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-08-01 00:48:07 INFO  - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-08-01 00:48:07 INFO  - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-08-01 00:48:07 INFO  - Global AuthenticationManager configured with UserDetailsService bean with name customUserDetailsService
+2025-08-01 00:48:08 WARN  - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-08-01 00:48:08 INFO  - Tomcat started on port 8080 (http) with context path '/'
+2025-08-01 00:48:08 INFO  - Started SchoolAppApplication in 4.21 seconds (process running for 4.468)
+2025-08-01 00:48:49 INFO  - Initializing Servlet 'dispatcherServlet'
+2025-08-01 00:48:49 INFO  - Completed initialization in 0 ms

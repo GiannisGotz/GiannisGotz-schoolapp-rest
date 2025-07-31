@@ -47,7 +47,8 @@ public class SecurityConfiguration {
                         .requestMatchers("/api/auth/authenticate").permitAll()
                         .requestMatchers("/api/teachers/**").hasAnyAuthority(Role.TEACHER.name(), Role.SUPER_ADMIN.name())
                         .requestMatchers("/api/employees/**").hasAnyAuthority(Role.EMPLOYEE.name())
-                        .requestMatchers("/**").permitAll()
+//                      //  .requestMatchers("/**").permitAll()
+                        .requestMatchers("/swagger/**").permitAll()
                 )
                 .sessionManagement((session -> session.sessionCreationPolicy(SessionCreationPolicy.STATELESS)))
                 .authenticationProvider(authenticationProvider())
@@ -60,7 +61,7 @@ public class SecurityConfiguration {
     CorsConfigurationSource corsConfigurationSource() {
         CorsConfiguration corsConfiguration = new CorsConfiguration();
         corsConfiguration.setAllowedOrigins(List.of("https://coding-factory.apps.gov.gr",
-                "https://test-coding-factory.apps.gov.gr", "http://localhost:4200", "http://localhost:5173"));
+                "https://test-coding-factory.apps.gov.gr", "http://localhost:4200", "http://localhost:3000"));
         corsConfiguration.setAllowedMethods(List.of("*"));
         corsConfiguration.setAllowedHeaders(List.of("*"));
         corsConfiguration.setAllowCredentials(true);
